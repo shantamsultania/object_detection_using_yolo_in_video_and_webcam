@@ -1,5 +1,6 @@
-# object_detection_using_yolo_in_video_and_webcam
-this is to detect objects in an video or by use of webcam using opencv, yolo and python 
+# Object detection using yolo in Image, video and webcam.
+
+This is to detect objects in an video or by use of webcam using opencv, yolo and python 
 
 this is a program to detect objects in an video using YOLO algorithm 
 This program is for object detection using YOLO.
@@ -15,7 +16,8 @@ Disadvantage: it only works with CPU, so you can’t get really high speed to pr
 
 
 #note:-
-# to download yolov3.weights go the drive link below 
+
+# To download yolov3.weights go the drive link below 
 
 also if you want to use just webcam replce test.mp4 with 0
 an remove 

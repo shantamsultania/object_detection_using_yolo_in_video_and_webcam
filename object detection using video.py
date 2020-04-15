@@ -9,10 +9,11 @@ layer_names = net.getLayerNames()
 output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
 
-# Loading web cam
+# Loading video
 fourcc = cv2.VideoWriter_fourcc(*"XVID")
 out = cv2.VideoWriter("the_new_video_is.avi", fourcc , 25, (852, 480))
 
+# repalce the test.mp4 with an video of your own 
 camera = cv2.VideoCapture("test.mp4")
 
 while True:
